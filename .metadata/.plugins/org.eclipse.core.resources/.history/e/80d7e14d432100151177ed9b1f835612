@@ -1,0 +1,22 @@
+package com.prayas.attendencetracker;
+
+import java.util.ArrayList;
+
+import android.support.v7.app.ActionBarActivity;
+import android.app.ListActivity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+
+
+public class Timetable extends ListActivity {
+	ArrayList<String> ttlist=  new ArrayList<String>();
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        
+    }
+
+
+    
+}
